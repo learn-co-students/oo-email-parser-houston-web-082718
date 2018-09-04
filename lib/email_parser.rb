@@ -10,6 +10,6 @@ class EmailParser
   end
 
   def parse
-    parse_data = @csv_data.split(/[,\s]+/).uniq
+    parse_data = csv_data.split(/[,\s]+/).uniq
   end
 end
